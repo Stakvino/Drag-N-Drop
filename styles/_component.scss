@@ -1,0 +1,75 @@
+div.top-nav-bar{
+  display: flex;
+  margin-bottom: 60px;
+  padding: 10px 0;
+  border: blue solid 1px;
+  #logo{
+    font-size: 1.5em;
+    margin-left: 10px;
+  }
+  .top-tool,
+  #logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  div.top-tools-container{
+    display: flex;
+    margin: 0 auto;
+    .top-tool{
+      border: red solid 1px;
+    }
+    span{
+      margin: 0 10px;
+      padding: 5px 15px;
+      font-size: 1.1em;
+      border: red solid 1px;
+    }
+    button{
+      margin: 0 5px;
+      i{
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+
+div.tool-bar{
+  width: 150px;
+  height: 500px;
+  position: absolute;
+  border: black solid 1px;
+  .left-tool,
+  .right-tool{
+    cursor: pointer;
+  }
+  div.chevron-left,
+  div.chevron-right{
+    position: absolute;
+    top: 45%;
+    font-size: 1.5em;
+  }
+  div.chevron-left{
+    right: 100%;
+    cursor: w-resize;
+  }
+  div.chevron-right{
+    left: 100%;
+    cursor: e-resize;
+  }
+}
+div.left-tool-bar{
+  border-left: 0;
+  div.left-tools-container{
+    .left-tool{
+      padding: 10px 0;
+      text-align: center;
+      font-size: 1.1em;
+      border: red solid 1px;
+    }
+  }
+}
+div.right-tool-bar{
+  border-right: 0;
+  right: 0;
+}

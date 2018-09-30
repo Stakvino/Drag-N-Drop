@@ -1,0 +1,70 @@
+@import url(vendor/icon.css);
+body {
+  margin: 0; }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0; }
+
+div.top-nav-bar {
+  display: flex;
+  margin-bottom: 60px;
+  padding: 10px 0;
+  border: blue solid 1px; }
+  div.top-nav-bar #logo {
+    font-size: 1.5em;
+    margin-left: 10px; }
+  div.top-nav-bar .top-tool,
+  div.top-nav-bar #logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center; }
+  div.top-nav-bar div.top-tools-container {
+    display: flex;
+    margin: 0 auto; }
+    div.top-nav-bar div.top-tools-container .top-tool {
+      border: red solid 1px; }
+    div.top-nav-bar div.top-tools-container span {
+      margin: 0 10px;
+      padding: 5px 15px;
+      font-size: 1.1em;
+      border: red solid 1px; }
+    div.top-nav-bar div.top-tools-container button {
+      margin: 0 5px; }
+      div.top-nav-bar div.top-tools-container button i {
+        font-size: 1.5em; }
+
+div.tool-bar {
+  width: 150px;
+  height: 500px;
+  position: absolute;
+  border: black solid 1px; }
+  div.tool-bar .left-tool,
+  div.tool-bar .right-tool {
+    cursor: pointer; }
+  div.tool-bar div.chevron-left,
+  div.tool-bar div.chevron-right {
+    position: absolute;
+    top: 45%;
+    font-size: 1.5em; }
+  div.tool-bar div.chevron-left {
+    right: 100%;
+    cursor: w-resize; }
+  div.tool-bar div.chevron-right {
+    left: 100%;
+    cursor: e-resize; }
+
+div.left-tool-bar {
+  border-left: 0; }
+  div.left-tool-bar div.left-tools-container .left-tool {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.1em;
+    border: red solid 1px; }
+
+div.right-tool-bar {
+  border-right: 0;
+  right: 0; }
+
+/*# sourceMappingURL=main.css.map */
